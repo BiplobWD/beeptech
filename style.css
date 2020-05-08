@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.maintemplate {
+    width: 1100px;
+    margin: 0 auto;
+}
+.header { 
+}
+.headtop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 3rem;
+    background: #303440;
+    line-height: 3rem;
+   
+}
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+.mainmenu {}
+.mainmenu ul{
+    list-style: none;
+}
+.mainmenu ul li{
+    float: left;
+}
+.mainmenu ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 600;
+
+}
+.mainmenu ul li a:hover,#active{
+    color: #eb5054;
+}
+
+
+.headcontent {
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    
+}
+.headcontent h2{
+    font-size: 3rem;
+    color: #fff;
+}
+.headcontent p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.servicesection{
+    background:#303440;
+    color: #fff;
+}
+.serheading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.serheading h2{
+    padding: 1rem 0 0.5rem 0;
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+}
+.serheading h2::after {
+    content: '';
+    width: 14%;
+    background: #fff;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: calc(53% - 10%);
+}
+
+.serheading p{
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;   
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+.service{}
+.service i{
+    font-size: 4rem;
+    color: #EB5054;
+}
+.service h2{
+    margin: 0.8rem 0;
+}
+.service p{}
+
+.portfoliosection{
+    background: #EB5054;
+}
+.porttext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.porttext h2{
+    color: #fff;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+}
+.porttext h2::after {
+    content: '';
+    width: 18%;
+    background: #fff;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: calc(51% - 10%);
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+    width: 400px;
+    padding: 2rem 0;
+    margin: 0 6rem;
+
+    
+}
+.portfolio img{
+    width: 300px;
+}
+
+
+.footersection{
+    background: #303440;
+    padding: 1rem;
+}
+.footersection p{
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
